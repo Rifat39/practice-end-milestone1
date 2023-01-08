@@ -1,0 +1,16 @@
+/* flex code */
+nav ul{
+    display:flex;
+}
+nav li{
+    list-style: none;
+margin-right: 10px;
+font-size: large;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,38 @@
+header{
+    height: 200px;
+    /* background-image: url('../Elle_Fanning-1733_\(cropped\).jpg'); */
+    background-image: url('../Images/Elle_Fanning-1733_\(cropped\).jpg');
+    background-repeat: no-repeat;
+    /* background-size: 20%;
+    background-size: contain; */
+    background-color: aqua;
+    background-size: cover;
+    background-position: Top right;
+    background-blend-mode:multiply;
+}
+h2{
+    color: white;
+    text-decoration: underline wavy rgb(128, 0, 0);
+}
+p{
+    color: black;
+    
+}
+.page_title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+span{
+    border: 2px solid black;
+    height: 200px;
+    /* inline element not take height  and width*/
+    width: 100px;
+    margin-top: 5px;
+    /* display: block; */
+    /* display: inline-block; */
+}
+.shadow{
+    background-color: olivedrab;
+    box-shadow: 5px 5px grey;
+    margin-bottom: 10px;
+}

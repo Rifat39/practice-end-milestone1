@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mix selectors</title>
+    <style>
+      .green {
+        color: green;
+        font-weight: bold;
+      }
+      .yellow {
+        background-color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* common background for p and h2 */
+      p,
+      h2 {
+        color: blueviolet;
+      }
+      .hot {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="hot">
+      Travel by a plane <span class="green">faster</span> than the other vehicle
+    </p>
+    <ol type="i">
+      <li>inline style</li>
+      <li>internal style <span class="green">(Embedded)</span></li>
+      <li class="hot">external style</li>
+    </ol>
+    <!-- <div> and <span> are non-semantic elements -->
+    <!-- The <div> element is a block-level element -->
+    <!-- The <span> element is an inline container used to mark up a part of a text, or a part of a document. The <span> element has no required attributes, but style , class and id are common.   -->
+    <!-- div is a container tag -->
+    <h2>Hello Everyone!!!!</h2>
+    <div class="yellow">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        blanditiis molestias labore, quas expedita nemo. Iste molestiae ipsum
+        velit libero dolorem deserunt aut! Reiciendis dolore explicabo unde,
+        quia, distinctio error architecto ducimus id suscipit laboriosam
+        voluptatibus cupiditate! Praesentium iste dicta animi illo ipsum in
+        soluta aspernatur quidem laborum! Officia, quam.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+        assumenda, temporibus eum a id ullam quae sapiente delectus minima
+        expedita consequatur voluptatibus perspiciatis, consectetur molestiae?
+        Vel non eligendi minus suscipit.
+      </p>
+    </div>
+  </body>
+</html>

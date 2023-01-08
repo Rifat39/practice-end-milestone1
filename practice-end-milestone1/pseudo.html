@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo</title>
+    <style>
+      /* pseudo class */
+      h1:hover {
+        color: yellow;
+        background-color: black;
+      }
+      a:visited {
+        color: red;
+      }
+      .middle-person:focus {
+        color: red;
+      }
+      li:first-child {
+        color: blue;
+      }
+      li:last-child {
+        color: green;
+      }
+      li:nth-child(2n + 1) {
+        background-color: gray;
+      }
+      ul {
+        list-style-type: none;
+      }
+      /* pseudo element */
+      h3::before {
+        content: "Hello ";
+      }
+      h3::after {
+        content: " Bye";
+        background-color: khaki;
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <input type="text" class="middle-person" />
+    <br /><a href="https://www.youtube.com/shorts/4I_dpF8wX7M">arora</a><br />
+    <h3>This is Rifat -1</h3>
+    <h3>This is Rifat -2</h3>
+    <h3>This is Rifat -3</h3>
+    <h3>This is Rifat -4</h3>
+    <h3>This is Rifat -5</h3>
+    <h3>This is Rifat -6</h3>
+    <ul>
+      <li>Rifat</li>
+      <li>Sifat</li>
+      <li>Alvi</li>
+      <li>siyam</li>
+      <li>Alex</li>
+      <li>Rahim</li>
+      <li>Karim</li>
+      <li>Sojib</li>
+    </ul>
+  </body>
+</html>

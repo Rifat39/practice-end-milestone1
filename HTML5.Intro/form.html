@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Form</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="audio-video.html">audio-video</a>
+          </li>
+          <li>
+            <a href="non semantic.html">non-semantic</a>
+          </li>
+          <li>
+            <a href="semantic.html">semantic</a>
+          </li>
+          <li>
+            <a href="table.html">table</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Welcome to pizza Hut</h2>
+    <form>
+      <label for="name"
+        >Your Name <input id="name" type="text" placeholder="Your name"
+      /></label>
+
+      <label for="email"
+        >Your email <input id="email" type="text" placeholder="Your email"
+      /></label>
+      <fieldset>
+        <legend>pick one</legend>
+        <label for="Garlic"
+          ><input type="radio" name="Pizza" id="Garlic" />Garlic</label
+        >
+        <!-- name same means same category -->
+        <label for="Chicken"
+          ><input type="radio" name="Pizza" id="Chicken" />Chicken</label
+        >
+        <label for="Masrum"
+          ><input type="radio" name="Pizza" id="Masrum" />Masrum</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Select or more</legend>
+        <label for="Cheez"
+          ><input type="checkbox" name="same" id="Cheez" />Cheez</label
+        >
+        <!-- name not in same category -->
+        <label for="Sauce"
+          ><input type="checkbox" name="same" id="Sauce" />Sauce</label
+        >
+        <label for="Paper"
+          ><input type="checkbox" name="same" id="Paper" />Paper</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
